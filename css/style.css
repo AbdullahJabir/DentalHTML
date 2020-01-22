@@ -183,8 +183,34 @@ color: black}
 
 .bfirst
 {
-    width: 70%;
+    width: 60%;
     height: 950px;
     color: black;
+    margin-left: 20px;
+    float: left;
+}
+.bfirst h3{
+    /*margin-left: 20px;*/
+}
+.bfirst img{
+    float: left;
+    padding-right: 10px;
+}
+.bsecond {
+    float: right;
+    width: 32%;
+    height: 824px;
+    background-color: black;
+    /* margin-right: 4px; */
+    border-radius: 19px;
+    margin: 25px;
+    opacity: 0.78;
+}
+.bsecond h2{
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    font-weight: normal;
+
 }
 
