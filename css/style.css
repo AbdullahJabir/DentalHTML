@@ -100,3 +100,91 @@ color: black}
 .nav ul li a:hover{}
 .{}
 
+.mbody {
+    background-color: #464B57;
+    height: 1600px;
+}
+
+.bgt {
+    float: left;
+    height: 500px;
+    width: 1311px;
+    margin: 0 auto;
+    /* margin-top: -33px; */
+    background: url('super_back.png');
+    background-repeat: repeat-y;
+}
+
+.bwhite {
+    height: 350px;
+    width: 1180px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* padding-top: 30px; */
+    margin-top: 40px;
+}
+
+.backi {
+    float: left;
+    height: 360px;
+    width: 1139px;
+    margin: 20px 20px;
+    /* margin-top: -33px; */
+    background: url('../img/back.png');
+    background-repeat: repeat-x !important;
+    background-repeat: repeat-y;
+}
+
+.btext {
+    background-color: black;
+    height: 100px;
+    width: 500px;
+    float: left;
+    opacity: 0.8;
+    margin-top: 26px;
+}
+
+.bimage img {
+    height: 300px;
+    margin: -114px 672px
+}
+
+.btext p {
+    font-size: 26px;
+    opacity: 1;
+    font-style: italic;
+    color: white;
+}
+
+
+.wbox {
+    float: left;
+    height: 100px;
+    width: 175px;
+    background-color: aliceblue;
+    margin: -65px 17px 22px 113px;
+    border-radius: 20px;
+    color: black;
+    opacity: .9;
+}
+
+
+.nbody
+{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    float: left;
+    margin-left: 53px;
+    border-radius: 10px;
+}
+
+.bfirst
+{
+    width: 70%;
+    height: 950px;
+    color: black;
+}
+
