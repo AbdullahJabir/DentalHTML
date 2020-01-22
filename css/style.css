@@ -11,16 +11,18 @@ header {
 	width: 1200px;
 	margin: 0 auto;
 }
-.head1{float: left;
+.headerleft{
+	float: left;
 	width: 50%;
 }
-.logo{float: left;
+.logo{
+	float: left;
 	padding-top: 56px;
 }
 .logo img{}
 .headtext{
 	padding-top: 60px;
-   color: aliceblue;
+    color: aliceblue;
     float: left;
 }
 .headtext h1{
@@ -32,7 +34,7 @@ header {
     margin-top: -24px;
 	margin-left: 10px;
 }
-.head2{float: left;width: 50%;}
+.headerright{float: left;width: 50%;}
 .phone{
 	padding-top: 20px;
     padding-left: 150px;
@@ -58,4 +60,43 @@ header {
 .icon a{}
 .icon a img{}
 
+nav{
+	float: left;
+    height: 60px;
+    background-color: #30b6f0;
+   /* background: linear-gradient(to bottom, #6682D0, #193277);*/
+    width: 100%;
+}
+nav ul{ 
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+nav ul li {
+    float: left;
+    border-right: 1px solid black;
+    /* padding: 10px; */
+    margin-top: 9px;
+    /* margin-bottom: 10px; */
+}
+nav ul li a {
+    margin-top: 5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 26px 10px 19px;
+    text-decoration: none;
+    border-radius: 10px;
+    /* border-right: 1px solid black; */
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+nav ul li:last-child{
+	border-right:none;
+}
+.active {background-color: #e8db2a;
+color: black}
+.nav ul li a:hover{}
+.{}
 
