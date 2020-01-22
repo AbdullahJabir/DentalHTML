@@ -7,19 +7,55 @@ header {
     width: 100%;
     height: 190px;
 }
-.container{}
-.head1{}
-.logo{}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head1{float: left;
+	width: 50%;
+}
+.logo{float: left;
+	padding-top: 56px;
+}
 .logo img{}
-.headtext{}
-.headtext h1{}
-.headtext h4{}
-.head2{}
-.phone{}
+.headtext{
+	padding-top: 60px;
+   color: aliceblue;
+    float: left;
+}
+.headtext h1{
+	margin-left: 10px;
+}
+.headtext h4{
+	font-size: 20px;
+
+    margin-top: -24px;
+	margin-left: 10px;
+}
+.head2{float: left;width: 50%;}
+.phone{
+	padding-top: 20px;
+    padding-left: 150px;
+    float: left;
+}
 .phone img{}
-.ptext{}
-.ptext p{}
-.ptext h1{}
-.icon{}
+.ptext{
+	color: white;
+    /*float: left;*/
+}
+.ptext p{
+	padding-top: 15px;
+}
+.ptext h1{
+	margin-top: -15px;
+	font-weight: bold;;
+}
+.icon{
+	float: right;
+    padding-top: 0px;
+    padding-right: 222px;
+}
 .icon a{}
 .icon a img{}
+
+
