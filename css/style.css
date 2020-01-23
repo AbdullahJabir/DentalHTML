@@ -213,4 +213,7 @@ color: black}
     font-weight: normal;
 
 }
+.bsecond ul{list-style-type: none;}
+.bsecond ul li{text-decoration: none;}
+.bsecond ul li a{}
 
